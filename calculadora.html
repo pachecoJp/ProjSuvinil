@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento calculadora</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2? family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="calculo">
+        <label id="tit" for="metragem">Metragem</label>
+        <input type="number" id="ml" placeholder="Largura(L)">
+        <input type="number" id="ma" placeholder="Altura(H)">
+        
+
+        <label id="tit" for="portas">Portas</label>
+        <input type="number" id="p" placeholder="Quantia de:">
+        <input type="number" id="pl" placeholder="Largura(L)">
+        <input type="number" id="pa" placeholder="Altura(H)">
+
+        <label id="tit" for="janelas">Janelas</label>
+        <input type="number" id="j" placeholder="Quantia de:">
+        <input type="number" id="jl" placeholder="Largura(L)">
+        <input type="number" id="ja" placeholder="Altura(H)">
+
+        <label id="tit" for="demaos">Demãos</label>
+        <input type="number" id="dm" placeholder="Quantidade:">
+        
+        <label id="tit" for="rendimentoLata">Lata de tinta m²</label>
+        <input type="number" id="rl" placeholder="Rende:">
+
+        <button id="bt1">CALCULAR</button>
+        <button id="bt2">LIMPAR</button>
+
+        <div id="resp">
+            <p id="rr"></p>
+         </div>
+
+        <p> O cliente deverá seguir os seguintes passos: tirar as medidas da altura e comprimento da parede a ser pintada usando fita métrica. <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Depois disso, acrescentar os valores em nossa calculadora, que ira retornar com a quantia necessária para sua ocasião.</p>
+      </div>
+    </div>
+   
+
+      <script src="./JS/calc.js"></script>
+</body>
+</html>

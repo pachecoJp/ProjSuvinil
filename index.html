@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <span class="title">CASA DE TINTAS</span>
+
+        <div class="pessoal">
+            <img id="icone" src="./img/rolo.png">
+    
+            <label for="nome">Nome do cliente:</label>
+            <input type="text" id="nome">
+            
+            <label for="telefone">Telefone:</label>
+            <input type="text" class="form-control" onkeypress="$(this).mask('(00) 00000-00009')">
+    
+            <label for="email">E-mail:</label>
+            <input type="email" id="email">
+    
+          </div>
+          <br>
+          <button><a href="./calculadora.html">Calculo de tintas</a></button>
+
+      </div>
+
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+</body>
+</html>
